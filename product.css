@@ -1,0 +1,209 @@
+.logo{
+  color: white;
+}
+.gap{
+  width:100%;
+  align:"center";
+}
+.logot{
+  margin-right: 110px;
+}
+.menu{
+  width: 30px;
+  height: 30px;
+}
+.cart{
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+div{
+  color:white;
+  font-size: 120%;
+  font-family: Arial; 
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+li.dropdown {
+  display:inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width:160px;
+  box-shadow: 0px 8px 16px 0px;
+}
+rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content {
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+} 
+.dropdown-content hover{
+  background-color:#7d7a7a;
+}
+.dropdown:hover 
+.dropdown-content {
+  display: block;
+}
+body{
+   margin: 0;
+    padding: 0;
+     background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://i.postimg.cc/nLhZykLk/Unit-3-Start-up-Crit-B-Strand-ii-Rachel-Kushiro.png');
+}
+h1{
+text-align: center;
+  font-size: 80px;
+  font-weight:800;
+  margin:0;
+  padding:0;
+  position: relative;
+  top: 10px;
+  left:15px;
+  border:0;
+   color: rgb(220, 220, 220);
+   text-decoration: none;
+  font-family:'League Spartan', sans-serif;
+  text-shadow: rgba(255, 253, 247, 0.5) 4.92021px 3.19522px 0px, rgba(255, 253, 247, 0.3) 9.84042px 6.39045px 0px;
+}
+h2{
+ position: relative;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: calc(20px + 5vw);
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.6em #1da9cc;
+    user-select: none;
+    white-space: nowrap;
+    filter: blur(0.01em);
+    animation: shake 2.5s linear forwards;
+text-align: center;
+color: white;
+font-size: 70px;
+}
+
+
+.invisiblecreamtext{
+  background-color:#8F8989;
+  color: black;
+  padding: 20px 5px;
+  font-size:13px;
+  line-height: 20px;
+  width:200px;
+  border-radius: 25px;
+  position:relative; top:-100px; left: 100px;margin-left:0px;       margin-right:0px;
+}
+p2{
+  font-weight:bold;
+}
+
+.shadowsuittext{
+  background-color:#DEDEE0;
+  color: black;
+  padding: 20px 5px;
+  line-height: 30px;
+  width:250px; 
+  border-radius: 25px;
+  position:relative; top:-470px; left:400px;margin-left:0px;       margin-right:0px;
+}
+p3{
+  font-size:14px;
+}
+p4{
+  font-weight:bold;
+  font-size:20px;
+}
+
+.wearablegreenscreentext{
+  background-color:#545454;
+  color: black;
+  padding: 20px 5px;
+  line-height: 30px;
+  width:250px;
+   border-radius: 25px;
+  position:relative; top:-1120px; left:750px;margin-left:0px;       margin-right:0px;
+}
+p5{
+  font-size:14px;
+}
+p6{
+  font-weight:bold;
+  font-size:20px;
+}
+
+.reflectionabletext{
+  background-color:#8F8989;
+  color: black;
+  padding: 20px 5px;
+  font-size:13px;
+  line-height: 30px;
+  width:250px;
+  border-radius: 25px;
+  position:relative; top:-1699px; left:1100px;margin-left:0px;       margin-right:0px;
+}
+p7{
+  font-size:14px;
+}
+p8{
+  font-weight:bold;
+  font-size:20px;
+}
+
+
+.creamblob{
+  width:30%;
+  position:relative; top:-100px; left: -330px;margin-left:0px; margin-right:0px;
+}
+.shadowsuitblob{
+  width: 45%;
+  position:relative; top:-430px; left:-50px;margin-left:0px; margin-right:0px;
+}
+.wearablegreenscreenblob{
+  width:40%;
+  position:relative; top:-1060px; left:450px;margin-left:0px; margin-right:0px;
+}
+.reflectionableblob{
+  width:35%;
+  position:relative; top:-1660px; left:730px;margin-left:0px; margin-right:0px;
+}
+
+
+.creamproduct{
+  width: 25%;
+  position:relative; top:-70px; left:-730px;margin-left:0px; margin-right:0px;
+}
+.shadowsuitproduct{
+  width:18%;
+  position:relative; top:-350px; left: -500px;margin-left:0px; margin-right:0px;
+}
+.wearablegreenscreenproduct{
+  width:38%;
+  position:relative; top:-1000px; left:-100px;margin-left:0px; margin-right:0px;
+}
+.reflectionableproduct{
+  width:25%;
+  position:relative; top:-1740px; left:300px;margin-left:0px; margin-right:0px;
+}
+
