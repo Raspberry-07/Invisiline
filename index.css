@@ -9,12 +9,12 @@
   margin-right: 90px;
 }
 .menu{
-  width: 17px;
-  height: 17px;
+  width: 30px;
+  height: 30px;
 }
 .cart{
-  width: 17px;
-  height: 17px;
+  width: 30px;
+  height: 30px;
   float: right;
 }
 div{
@@ -172,4 +172,5 @@ catchphrase {
   background-repeat: no-repeat;
   background-size: cover;
  }
+ 
  
