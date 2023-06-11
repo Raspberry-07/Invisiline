@@ -1,0 +1,183 @@
+body{
+  background-color:black;
+   Background-image: url("https://i.postimg.cc/1RkWgh8q/Unit-3-Start-up-Crit-B-Strand-ii-Rachel-Kushiro-7.png");
+  background-repeat: no-repeat;
+  background-size: 1930px 870px;
+}
+.gap{
+  width:100%;
+  align:"center";
+}
+.logot{
+  margin-right:110px;
+  color:white;
+  font-size: 130%;
+  font-family: Arial; 
+  text-align: center;
+  position: relative;
+}
+.menu{
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.cart{
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+div{
+  color:white;
+  font-size: 130%;
+  font-family: Arial; 
+  text-align: center;
+  position: relative;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+li.dropdown {
+  display:inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width:160px;
+  box-shadow: 0px 2px 8px 0px
+}
+rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content {
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.dropdown-content hover{
+  background-color:#7d7a7a;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h1{
+  font-size: 150px;
+  font-weight:800;
+  margin:0;
+  padding:0;
+  border:0;
+  position: relative;
+  top: 45px;
+  left: 60px;
+  text-align:left;
+  color: rgb(135, 134,134);
+  text-decoration: none;
+  font-family:'League Spartan', sans-serif;
+   text-shadow: rgba(255, 253, 247, 0.5) 4.92021px 3.19522px 0px, rgba(255, 253, 247, 0.3) 9.84042px 6.39045px 0px;
+}
+h2{
+  font-size: 150px;
+  font-weight:800;
+  margin:0;
+  padding:0;
+  border:0;
+  position: relative;
+  top: 30px;
+  left: 60px;
+  text-align:left;
+  color: rgb(135, 134,134);
+  text-decoration: none;
+  font-family:'League Spartan', sans-serif;
+   text-shadow: rgba(255, 253, 247, 0.5) 4.92021px 3.19522px 0px, rgba(255, 253, 247, 0.3) 9.84042px 6.39045px 0px;
+}
+h3{
+  font-size: 18px;
+  font-weight: 1px;
+  font-family: Calibri;
+  color:rgb(54, 54,54);
+  width: 385px;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  left: 60px;
+}
+h4{
+  width: 330px;
+  text-align: center;
+  position: relative;
+  left: 850px;
+  top: -220px;
+  font-family:Calibri;
+  font-size: 19px;
+  color: white;
+}
+h5{
+  width: 300px;
+  text-align: center;
+  position: relative;
+  left: 1375px;
+  top: -300px;
+  font-family: Calibri;
+  font-size: 19px;
+  color: white;
+}
+.spoon{
+  width: 1500px;
+  position: relative;
+  top: -630px;
+  left: 390px;
+}
+.fork{
+  width: 1500px;
+  position: relative;
+  top: -1425px;
+  left: 120px;
+}
+.knife{
+  width: 1750px;
+  position: relative;
+  top: -2360px;
+  left: 80px;
+}
+.plate{
+ width: 1750px;
+  position: relative;
+  top: -3350px;
+  left: 120px; 
+}
+.napkin{
+  width:1300px;
+  position: relative;
+  top: -4099px;
+  left: 350px; 
+}
+.salad{
+  width:1300px;
+  position: relative;
+  top: -4830px;
+  left:877px; 
+}
+.spork{
+  width:350px;
+  position: relative;
+  top: -5040px;
+  left:-480px; 
+}
+.foon{
+  width:350px;
+  position: relative;
+  top: -5330px;
+  left: 1350px;
+}
