@@ -1,0 +1,184 @@
+.logo{
+  color: white;
+}
+.gap{
+  width:100%;
+  align:"center";
+}
+.logot{
+  margin-right: 90px;
+}
+.menu{
+  width: 30px;
+  height: 30px;
+}
+.cart{
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+div{
+  color:white;
+  font-size: 120%;
+  font-family: Arial; 
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li.dropdown {
+  display:inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width:160px;
+  box-shadow: 0px 8px 16px 0px
+}
+rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content {
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+ 
+.dropdown-content hover{
+  background-color:#7d7a7a;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h2{
+ position: relative;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: calc(20px + 5vw);
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.6em #1da9cc;
+    user-select: none;
+    white-space: nowrap;
+    filter: blur(0.01em);
+    animation: shake 2.5s linear forwards;
+text-align: center;
+color: white;
+font-size: 70px;
+}
+
+body{
+  background: #191919;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.cartbox{
+ width: 70%;
+ height: 85%;
+ background-color: #DEDEE0;
+ border-radius: 20px;
+ box-shadow: 0px 10px 20px #757575;
+ margin: auto;
+ 
+}
+.cartheader{
+  margin:0;
+  width:90%;
+  height:15%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.cartheading{
+  font-size:22px;
+  font-family:'League Spartan', sans-serif;
+  text-shadow: rgba(255, 253, 247, 0.5) 4.92021px 3.19522px 0px, rgba(255, 253, 247, 0.3) 9.84042px 6.39045px 0px;
+  font-weight:700;
+  color:#323131;
+  position:relative; top:20px; left:-400px;margin- left:0px;margin-right:0px;
+}
+.remove{
+  font-size: 14px;
+ font-family: ‘Open Sans’;
+ font-weight: 600;
+ color: #545454;
+ cursor: pointer;
+ text-decoration-line: underline; 
+ position:relative; top:-25px; left:430px;margin- left:0px;margin-right:0px;
+ 
+}
+.creamproduct{
+  width:30%;
+  position:relative; top:-100px; left:-380px;margin- left:0px;margin-right:0px;
+  
+}
+.creamabout{
+  
+}
+p1{
+  font-weight:bold;
+  font-size:80%;
+  color: black;
+  position:relative; top:-300px; left:-150px;margin- left:0px;margin-right:0px;
+}
+p2{
+  font-size:60%;
+  color: black;
+  position:relative; top:-300px; left:-210px;margin- left:0px;margin-right:0px;
+}
+.wrapper{
+  height:50px;
+  width:120px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#FFF;
+  border-radius:12px;
+  font-weight:bold;
+  font-size: 25px;
+  position:relative; top:-350px; left:600px;margin- left:0px;margin-right:0px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.wrapper span{
+  width: 100%;
+  text-align:center;
+  font-size:25px;
+  font-weight:bold;
+  cursor:pointer;
+}
+.wrapper span.number{
+  font-size:20px;
+  border-right: 2px solid rgba(0,0,0,0.3);
+  border-left: 2px solid rgba(0,0,0,0.3);
+  pointer-events:none;
+}
+.minus{
+  color:black;
+}
+.plus{
+  color:black;
+}
+.number{
+  color:black;
+}
