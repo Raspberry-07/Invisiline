@@ -1,0 +1,73 @@
+<html>
+  <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"
+  </head>
+  <body>
+    <table class="gap">
+      <tr>
+        <td>
+          <nav>
+    <ul>
+      <li class="dropdown">
+        <img src="https://i.postimg.cc/x8stHTnL/icons8-menu-48.png" class="menu">
+        <a href="javascript:void(0)" class="dropbtw"></a>
+        <div class="dropdown-content">
+          <a href="#">Home </a>
+          <a href="#">Product</a>
+          <a href="#">About Us</a>
+          <a href="#">Add to Cart</a>
+        </div>
+         </nav>
+       <div class="catchphrase">
+        </td>
+        <td class="logo">
+          <div class="logot">INVISILINE</div> 
+        </td>
+        <td> 
+          <img src="https://i.postimg.cc/qBYKt3dj/icons8-cart-50.png" class="cart">
+   </div>
+      </li>
+       </ul>
+        </td>
+         </tr>
+          </table>
+
+<div class="cartbox">
+  <h3 class="cartheading">Shopping Cart</h3>
+  <h4 class="remove">Remove All</h4>
+<div class="cartitems">
+     <div class="invisiblecreambox">
+         <img class="creamproduct"
+src="https://i.postimg.cc/nrPzYhH0/Rudys-Cream-Invisible-Front-1-1-Background-Removed-2.png">
+       </div>
+      <div class="creamabout">
+        <p1 class=”creamtitle”>Invisible Cream</p1><br>
+        <p2 class="creamspecific">10 ml</p2>
+      </div>
+      <div class="wrapper">
+        <span class="minus">−</span>
+        <span class="number">01</span>
+        <span class="plus">+</span>
+      </div>
+ 
+  <script>
+    const plus=document.querySelector(".plus"),
+          minus=document.querySelector(".minus"),
+          number=document.querySelector(".number"),
+    
+    let a = 1;
+    
+    plus.addEventListener("click", ()=>{
+      a++;
+      a = (a < 10) ? "0" + a : a;
+      number.innerText=a;
+      console.log(a);
+      
+    });
+  </script>
+  
+  </body>
+  </html>
