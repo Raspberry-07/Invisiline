@@ -1,3 +1,49 @@
+.two{
+  width:1922px;
+  height:870px;
+  position: relative;
+  top:30px;
+  right:px;
+}
+.three{
+ border-radius:25px; 
+  height:600px;
+  width:450px;
+  position: relative;
+  top:-625px;
+  left:630px;
+}
+.box{
+  height:600px;
+  width:1000px;
+  matrgin-bottom: 15px;
+  border: 1px solid DimGrey;
+  border-radius:25px;
+  position: relative;
+  top:-650px;
+  left:170px;
+  margin-left:0px; 
+  margin-right:0px;
+  background-color:Dimgrey;
+}
+h3{
+  font-family: Calibri;
+  font-size:50px;
+  color: white;
+  position: relative;
+  top:-1850px;
+  left:530px;
+}
+h4{
+  font-family: Calibri;
+  font-size:25px;
+  color: white;
+  position: relative;
+  top:-1880px;
+  left:240px;
+  text-align: center;
+  width:800px
+}
 .logo{
   color: white;
 }
@@ -6,7 +52,7 @@
   align:"center";
 }
 .logot{
-  margin-right: 90px;
+  margin-right: 110px;
 }
 .menu{
   width: 30px;
@@ -19,19 +65,19 @@
 }
 div{
   color:white;
-  font-size: 120%;
+  font-size: 130%;
   font-family: Arial; 
   text-align: center;
 }
-
+body{
+  background: Black;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
- 
 }
-
 li a, .dropbtn {
   display: inline-block;
   color: black;
@@ -48,7 +94,7 @@ li.dropdown {
   position: absolute;
   background-color: #f9f9f9;
   min-width:160px;
-  box-shadow: 0px 8px 16px 0px
+  box-shadow: 0px 2px 8px 0px
 }
 rgba(0,0,0,0.2);
   z-index: 1;
@@ -77,7 +123,7 @@ h2{
     color: #fff;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    text-shadow: 0 0 0.6em #1da9cc;
+    text-shadow: 0 0 0.5em #1da9cc;
     user-select: none;
     white-space: nowrap;
     filter: blur(0.01em);
@@ -86,16 +132,10 @@ text-align: center;
 color: white;
 font-size: 70px;
 }
-
-body{
- Background-image: url("https://i.postimg.cc/K845QnJd/Home.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-catchphrase {
+body {
   Background-image: url("https://i.postimg.cc/K845QnJd/Home.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1930px 870px;
 }
 .quote2{
  margin-left: 42%;
@@ -166,11 +206,4 @@ catchphrase {
 	to {
 		transform: translate(0)
 	}
- 
- .mission{
-  Background-image: url("https://i.postimg.cc/1RYHFydx/Screenshot-2023-05-29-at-14-22-47.png");
-  background-repeat: no-repeat;
-  background-size: cover;
- }
- 
- 
+  
