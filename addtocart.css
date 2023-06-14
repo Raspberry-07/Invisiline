@@ -6,7 +6,7 @@
   align:"center";
 }
 .logot{
-  margin-right: 90px;
+  margin-right: 110px;
 }
 .menu{
   width: 30px;
@@ -19,19 +19,19 @@
 }
 div{
   color:white;
-  font-size: 120%;
+  font-size: 130%;
   font-family: Arial; 
   text-align: center;
 }
-
+body{
+  background: Black;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
- 
 }
-
 li a, .dropbtn {
   display: inline-block;
   color: black;
@@ -48,7 +48,7 @@ li.dropdown {
   position: absolute;
   background-color: #f9f9f9;
   min-width:160px;
-  box-shadow: 0px 8px 16px 0px
+  box-shadow: 0px 2px 8px 0px
 }
 rgba(0,0,0,0.2);
   z-index: 1;
