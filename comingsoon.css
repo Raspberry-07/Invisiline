@@ -33,6 +33,7 @@ body{
   background-size: 1910px 870px;
   overflow-x:hidden;
   overflow-y:auto;
+  background-color: black;
 }
 ul {
   list-style-type: none;
