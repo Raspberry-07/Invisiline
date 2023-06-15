@@ -25,6 +25,8 @@ div{
 }
 body{
   background: Black;
+  overflow-x: hidden;
+overflow-y: hidden;
 }
 ul {
   list-style-type: none;
