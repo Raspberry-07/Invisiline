@@ -1,11 +1,3 @@
-body {
-  background-color: black;
-  background-image: url("https://i.postimg.cc/SNcm24Tb/Unit-3-Start-up-Crit-B-Strand-ii-Rachel-Kushiro-16.png");
-  background-repeat: no-repeat;
-  background-size: 1910px 870px;
-  overflow-x:hidden;
-  overflow-y:auto;
-}
 .gap{
   width:100%;
   align:"center";
@@ -36,7 +28,11 @@ div{
   text-align: center;
 }
 body{
-  background: Black;
+  background-image: url("https://i.postimg.cc/SNcm24Tb/Unit-3-Start-up-Crit-B-Strand-ii-Rachel-Kushiro-16.png");
+  background-repeat: no-repeat;
+  background-size: 1910px 870px;
+  overflow-x:hidden;
+  overflow-y:auto;
 }
 ul {
   list-style-type: none;
