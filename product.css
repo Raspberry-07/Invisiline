@@ -26,7 +26,7 @@ div{
 body{
   background: Black;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 ul {
   list-style-type: none;
@@ -78,13 +78,15 @@ body{
     background-image: url('https://i.postimg.cc/nLhZykLk/Unit-3-Start-up-Crit-B-Strand-ii-Rachel-Kushiro.png');
 }
 h1 {
-  font-size: 150px;
+  font-size: 90px;
   font-weight:800;
   text-align:center;
   color: rgb(135, 134,134);
   text-decoration: none;
   font-family:'League Spartan', sans-serif;
    text-shadow: rgba(255, 253, 247, 0.5) 4.92021px 3.19522px 0px, rgba(255, 253, 247, 0.3) 9.84042px 6.39045px 0px;
+  vertical-align:text-top;
+   position:relative; top:-50px; left: -20px;margin-left:0px;       margin-right:0px;
 }
 h2{
  position: relative;
@@ -113,7 +115,7 @@ font-size: 70px;
   line-height: 20px;
   width:200px;
   border-radius: 25px;
-  position:relative; top:-100px; left: 100px;margin-left:0px;       margin-right:0px;
+  position:relative; top:-200px; left: 100px;margin-left:0px;margin-right:0px;
 }
 p2{
   font-weight:bold;
@@ -126,7 +128,7 @@ p2{
   line-height: 30px;
   width:250px; 
   border-radius: 25px;
-  position:relative; top:-470px; left:400px;margin-left:0px;       margin-right:0px;
+  position:relative; top:-570px; left:400px;margin-left:0px;       margin-right:0px;
 }
 p3{
   font-size:14px;
@@ -143,7 +145,7 @@ p4{
   line-height: 30px;
   width:250px;
    border-radius: 25px;
-  position:relative; top:-1120px; left:750px;margin-left:0px;       margin-right:0px;
+  position:relative; top:-1230px; left:750px;margin-left:0px;       margin-right:0px;
 }
 p5{
   font-size:14px;
@@ -161,7 +163,7 @@ p6{
   line-height: 30px;
   width:250px;
   border-radius: 25px;
-  position:relative; top:-1699px; left:1100px;margin-left:0px;       margin-right:0px;
+  position:relative; top:-1815px; left:1100px;margin-left:0px;margin-right:0px;
 }
 p7{
   font-size:14px;
@@ -174,36 +176,35 @@ p8{
 
 .creamblob{
   width:30%;
-  position:relative; top:-100px; left: -330px;margin-left:0px; margin-right:0px;
+  position:relative; top:-200px; left: -330px;margin-left:0px; margin-right:0px;
 }
 .shadowsuitblob{
   width: 45%;
-  position:relative; top:-430px; left:-50px;margin-left:0px; margin-right:0px;
+  position:relative; top:-530px; left:-50px;margin-left:0px; margin-right:0px;
 }
 .wearablegreenscreenblob{
   width:40%;
-  position:relative; top:-1060px; left:450px;margin-left:0px; margin-right:0px;
+  position:relative; top:-1160px; left:450px;margin-left:0px; margin-right:0px;
 }
 .reflectionableblob{
   width:35%;
-  position:relative; top:-1660px; left:730px;margin-left:0px; margin-right:0px;
+  position:relative; top:-1770px; left:730px;margin-left:0px; margin-right:0px;
 }
 
 
 .creamproduct{
   width: 25%;
-  position:relative; top:-70px; left:-730px;margin-left:0px; margin-right:0px;
+  position:relative; top:-160px; left:-730px;margin-left:0px; margin-right:0px;
 }
 .shadowsuitproduct{
   width:18%;
-  position:relative; top:-350px; left: -500px;margin-left:0px; margin-right:0px;
+  position:relative; top:-450px; left: -500px;margin-left:0px; margin-right:0px;
 }
 .wearablegreenscreenproduct{
   width:38%;
-  position:relative; top:-1000px; left:-100px;margin-left:0px; margin-right:0px;
+  position:relative; top:-1100px; left:-100px;margin-left:0px; margin-right:0px;
 }
 .reflectionableproduct{
   width:25%;
-  position:relative; top:-1740px; left:300px;margin-left:0px; margin-right:0px;
+  position:relative; top:-1850px; left:300px;margin-left:0px; margin-right:0px;
 }
-
