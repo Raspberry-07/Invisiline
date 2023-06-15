@@ -3,6 +3,8 @@ body {
   background-image: url("https://i.postimg.cc/KYJVkph2/Unit-3-Start-up-Crit-B-Strand-ii-Rachel-Kushiro-15.png");
   background-repeat: no-repeat;
   background-size: 1910px 870px;
+  overflow-x:hidden;
+  overflow-y:auto;
 }
 .gap{
   width:100%;
