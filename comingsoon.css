@@ -81,9 +81,15 @@ rgba(0,0,0,0.2);
   display: block;
 }
 h1{
-  font-size: 150px;
-  font-weight:100;
-  text-align:center;
+ font-size: 150px;
+  font-weight:800;
+  margin:0;
+  padding:0;
+  border:0;
+  position: relative;
+  top: 45px;
+  left: 60px;
+  text-align:left;
   color: rgb(135, 134,134);
   text-decoration: none;
   font-family:'League Spartan', sans-serif;
